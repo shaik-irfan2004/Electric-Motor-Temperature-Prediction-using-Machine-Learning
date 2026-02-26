@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Electric Motor Temperature Prediction</title>
+</head>
+<body style="background-color:#f2f2f2; font-family:Arial;">
+
+    <center>
+        <h1 style="color:darkblue;">⚡ Electric Motor Temperature Prediction</h1>
+
+        <form action="/predict" method="post" style="background:white; padding:20px; width:400px; border-radius:10px;">
+
+            <label>Ambient Temperature:</label><br>
+            <input type="text" name="ambient_temp" required><br><br>
+
+            <label>Coolant Temperature:</label><br>
+            <input type="text" name="coolant_temp" required><br><br>
+
+            <label>Motor Speed (RPM):</label><br>
+            <input type="text" name="motor_speed" required><br><br>
+
+            <label>Torque (Nm):</label><br>
+            <input type="text" name="torque" required><br><br>
+
+            <label>Current (A):</label><br>
+            <input type="text" name="current" required><br><br>
+
+            <label>Voltage (V):</label><br>
+            <input type="text" name="voltage" required><br><br>
+
+            <input type="submit" value="Predict Temperature" style="background:blue; color:white; padding:10px; border:none; border-radius:5px; cursor:pointer;">
+
+        </form>
+    </center>
+
+</body>
+</html>
