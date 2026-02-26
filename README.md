@@ -54,7 +54,7 @@ R² Score
 
 ▶️ How to Run the Project
 1️⃣ Clone the repository
-git clone https://github.com/your-username/Electric-Motor-Temperature-Prediction.git
+git clone https://github.com/shaik-irfan2004/Electric-Motor-Temperature-Prediction-using-Machine-Learning/edit/main
 cd Electric-Motor-Temperature-Prediction
 2️⃣ Install dependencies
 pip install -r requirements.txt
